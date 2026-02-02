@@ -1,50 +1,51 @@
 import React from "react";
-import Img1 from "../../assets/women/women.png";
-import Img2 from "../../assets/women/women2.jpg";
-import Img3 from "../../assets/women/women3.jpg";
-import Img4 from "../../assets/women/women4.jpg";
+import Img1 from "../../assets/products/hoa.jpg";
+import Img2 from "../../assets/products/hoa2.jpg";
+import Img3 from "../../assets/products/hoa3.jpg";
+import Img4 from "../../assets/products/hoa4.jpg";
+import Img5 from "../../assets/products/hoa5.png";
 import { FaStar } from "react-icons/fa6";
 
 const ProductsData = [
   {
     id: 1,
     img: Img1,
-    title: "Women Ethnic",
+    title: "Ánh đèn vàng",
     rating: 5.0,
-    color: "white",
+    color: "quà tặng, ấm áp, handmade",
     aosDelay: "0",
   },
   {
     id: 2,
     img: Img2,
-    title: "Women western",
+    title: "Bản Hòa Ca Sắc Hoa",
     rating: 4.5,
-    color: "Red",
+    color: "nổi bật, cân bằng, trang trí phòng",
     aosDelay: "200",
   },
   {
     id: 3,
     img: Img3,
-    title: "Goggles",
+    title: "Bình Yên Xanh",
     rating: 4.7,
-    color: "brown",
+    color: "dịu, chữa lành, minimal",
     aosDelay: "400",
   },
   {
     id: 4,
     img: Img4,
-    title: "Printed T-Shirt",
-    rating: 4.4,
-    color: "Yellow",
+    title: "Mộng Hồng",
+    rating: 4.9,
+    color: "vintage, lãng mạn",
     aosDelay: "600",
   },
   {
     id: 5,
-    img: Img2,
-    title: "Fashin T-Shirt",
-    rating: 4.5,
-    color: "Pink",
-    aosDelay: "800",
+    img: Img5,
+    title: "Mộng Hồng Tĩnh Lặng",
+    rating: 4.9,
+    color: "dịu – lãng mạn",
+    aosDelay: "600",
   },
 ];
 

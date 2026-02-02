@@ -1,30 +1,30 @@
 import React from "react";
-import Img1 from "../../assets/shirt/shirt.png";
-import Img2 from "../../assets/shirt/shirt2.png";
-import Img3 from "../../assets/shirt/shirt3.png";
+import Img1 from "../../assets/flowers/hoa.jpg";
+import Img2 from "../../assets/flowers/hoa2.jpg";
+import Img3 from "../../assets/flowers/hoa3.jpg";
 import { FaStar } from "react-icons/fa";
 
 const ProductsData = [
   {
     id: 1,
     img: Img1,
-    title: "Hoa ép nghệ thuật khung gỗ",
+    title: "Dấu Ấn Hoa Thời Gian 🌿",
     description:
-      "Hoa ép thủ công được sắp xếp tinh tế trong khung gỗ sang trọng, phù hợp trang trí phòng khách hoặc làm quà tặng ý nghĩa.",
+      "Hoa ép thủ công được sắp xếp tinh tế trong khung gỗ tự nhiên, mang vẻ đẹp mộc mạc nhưng sang trọng.",
   },
   {
     id: 2,
     img: Img2,
-    title: "Hoa ép bookmark",
+    title: "Bookmark Hoa Ép – Dấu Trang Ký Ức 💌",
     description:
-      "Bookmark hoa ép mỏng nhẹ, giữ trọn vẻ đẹp tự nhiên của hoa, thích hợp làm quà lưu niệm hoặc phụ kiện đọc sách.",
+      "Bookmark hoa ép mỏng nhẹ, giữ trọn vẻ đẹp tự nhiên của hoa.",
   },
   {
     id: 3,
     img: Img3,
-    title: "Hoa ép kỷ niệm trong khung kính",
+    title: "Khoảnh Khắc Trong Suốt ✨",
     description:
-      "Hoa ép được bảo quản trong khung kính trong suốt, lưu giữ khoảnh khắc đặc biệt và cảm xúc theo thời gian.",
+      "Hoa ép được bảo quản trong khung kính trong suốt, giữ trọn vẻ đẹp mong manh của thiên nhiên.",
   },
 ];
 const TopProducts = ({ handleOrderPopup }) => {
